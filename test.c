@@ -1,7 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<pthread.h>
+<<<<<<< HEAD
 #define NUM_THREADS 35
+=======
+#define NUM_THREADS 15
+>>>>>>> bd6ad824300636f14b39030e1710c64bb5b4ce27
 void *PrintHello(void *threadid)
 {
     long tid;
